@@ -1,39 +1,63 @@
-* {
-    width: 100%;
+/* menu section */
+.coffee {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-table {
+#coffee_choices {
     width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
 }
 
-td {
-    max-width: 12%;
-    width: 100px;
+.coffeeTitle {
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
 }
 
 .coffeeImg {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
+    height: 100px;
+    width: 150px;
+    display: block;
+    margin: auto;
 }
 
-body {
-    background-color: lightblue;
+.label {
+    text-align: center;
+    font-size: 12px;
+    padding: 5px;
 }
 
-.about {
-    background-color: lightgreen;
+/* form */
+form {
+    text-align: center;
+    margin-top: 20px;
 }
 
-/* 
-LABORATORY EXERCISE #4
-Your task is to edit this CSS file and design the different web pages (delete the dummy/test code). 
-You are NOT allowed to modify/change the HTML files.
+input, select {
+    padding: 5px;
+    margin: 5px;
+}
 
-Tips: 
-1. There are some elements that have no classes at all (such as the list of steps in making coffee), to style them, 
-you can use contextual selectors or attribute selectors to select them for styling
-2. Just with any web design project, it's best to draft a wireframe first before you start working with the CSS.
-3. You do not have to select all the classes/ids in the web pages; 
-the main goal is to create a website that is both visually appealing and user-friendly.
-*/
+input[type="submit"] {
+    background-color: #b58363 ;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #8d493a ;
+}
+
+.contacts {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+}
