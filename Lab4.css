@@ -42,18 +42,38 @@ header {
     margin-top: 34px;
     margin-bottom: 15px;
     font-size: 40px;
-    color: #732E1F;
+    color: #2E0800;
 }
 
 #welcome {
     margin: 0;
     position: absolute;
-    top: 300px;
+    top: 115px;
     color: white;
-    margin-left: 40px;
+    padding-top: 175px;
+    padding-right: 1000px;
+    padding-left: 40px;
+    padding-bottom: 347px;
     font-size: x-large;
-    width: 500px;
+    width: 730px;
+    background-color: black;
+    opacity: 75%;
 }
+
+#orderCoffee {
+    position: absolute;
+    border: 0;
+    margin-left: 40px;
+    top: 500px;
+    height: 150px;
+    width: 350px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #8d493a;
+    color: white;
+    font-size: large;
+}
+
 
 .navBar {
     position: absolute;
@@ -62,14 +82,16 @@ header {
 }
 .navigation {
     margin: 10px;
-    color: black;
+    color: #722C1D;
     font-size: 25px;
+    font-weight: bold;
     text-decoration: none;
 }
 
 .about {
     background-color: lightgreen;
 }
+
 
 /* 
 LABORATORY EXERCISE #4
