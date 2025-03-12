@@ -14,10 +14,11 @@ td {
 hr {
     width: 0%;
     margin: 0;
+    position: absolute;
 }
 
 body {
-    background-color: #d0b8a8;
+    background-color: #d0b8a8 ;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     margin: 0;
@@ -26,31 +27,38 @@ body {
 
 #banner.imgBanner {
     width: 100%;
-    height: 697px;
+    top: 92px; 
+    height: 605px;
     object-fit: cover;
+    
 }
 
 header {
-   background-color: #8d493a;
-   position: absolute;
-   height: 112px;
+   background-color: #d0b8a8;
 }
 
 #title {
     margin-left: 40px;
     margin-top: 34px;
+    margin-bottom: 15px;
     font-size: 40px;
+    color: #732E1F;
 }
 
 #welcome {
     margin: 0;
     position: absolute;
+    top: 300px;
+    color: white;
+    margin-left: 40px;
+    font-size: x-large;
+    width: 500px;
 }
 
 .navBar {
     position: absolute;
-    left: 1100px;
-    top: 40px;
+    left: 1175px;
+    top: 45px;
 }
 .navigation {
     margin: 10px;
