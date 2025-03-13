@@ -1,7 +1,4 @@
-* {
-    width: 100%;
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 table {
     width: 100%;
 }
@@ -11,42 +8,42 @@ td {
     width: 100px;
 }
 
-hr {
-    width: 0%;
-    margin: 0;
-    position: absolute;
-}
-
 body {
     background-color: #d0b8a8 ;
     font-family: "Inter", sans-serif;
     font-optical-sizing: auto;
     margin: 0;
-    overflow-x: hidden;
+}
+
+.home hr {
+    width: 0%;
+    margin: 0;
+    position: absolute;
 }
 
 #banner.imgBanner {
     width: 100%;
-    top: 92px; 
     height: 605px;
     object-fit: cover;
-    
 }
 
 #title {
-    margin-left: 40px;
-    margin-top: 34px;
-    margin-bottom: 15px;
+    margin-left: 2.6%;
+    margin-top: 2.6%;
+    margin-bottom: 0.7%;
     font-size: 40px;
     color: #2E0800;
 }
 
 .navBar {
     position: absolute;
-    left: 1160px;
+    margin-right: 2.6%;
+    left: 76.86%;
     top: 50px;
 }
 .navigation {
+    position: relative;
+    right: inherit;
     margin: 10px;
     color: #722C1D;
     font-size: 25px;
@@ -57,14 +54,14 @@ body {
 #welcome {
     margin: 0;
     position: absolute;
-    top: 115px;
+    top: 16.3%;
     color: white;
-    padding-top: 105px;
-    padding-right: 1000px;
-    padding-left: 40px;
-    padding-bottom: 337px;
+    padding-top: 7%;
+    padding-right: 35.9%;
+    padding-left: 2.6%;
+    padding-bottom: 22.15%;
     font-size: 40px;
-    width: 930px;
+    width: 61.5%;
     line-height: 55px;
     background-color: black;
     opacity: 75%;
@@ -74,7 +71,8 @@ body {
     position: absolute;
     border: 0;
     margin-left: 40px;
-    top: 405px;
+    top: 398px;
+    right: 1123px;
     height: 100px;
     width: 350px;
     border-radius: 10px;
@@ -85,6 +83,23 @@ body {
     text-transform: uppercase;
 }
 
+.home img[src^="Images/CoffeeCup.jpg"]{
+    position: absolute;
+    top: 722.40px;
+    padding-top: 35px;
+    padding-left:35px;
+    padding-bottom: 35px;
+    padding-right: 1004px;
+}
+
+.home a[href^="#bottomPage"] {
+    text-decoration: none;
+    position: absolute;
+    width: 120px;
+    top: 690px;
+    right: 7px;
+    color: gray;
+}
 .about {
     background-color: lightgreen;
 }
