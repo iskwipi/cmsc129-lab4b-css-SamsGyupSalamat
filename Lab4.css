@@ -1,63 +1,180 @@
-/* menu section */
-.coffee {
-    text-align: center;
-    margin-bottom: 20px;
+body {
+    text-decoration: none;
+    background-color: #d0b8a8;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    margin: 0;
 }
 
-#coffee_choices {
+.order hr {
+    display: none;
     width: 100%;
-    border-collapse: collapse;
-    margin-top: 20px;
+    margin: 0;
+    position: absolute;
 }
 
-.coffeeTitle {
+.order #banner.imgBanner {
+    width: 100%;
+    height: 90vh;
+    object-fit: cover;
+}
+
+.order #title {
+    font-family: "Inter", sans-serif;
+    margin-left: 2.6%;
+    margin-top: 2.2%;
+    margin-bottom: 1.2%;
+    font-size: 2vw;
+    color: #2E0800;
+}
+
+.order .navBar {
+    position: absolute;
+    margin-right: 2%;
+    left: 76.86%;
+    top: 6vh;
+    white-space: nowrap;
+}
+
+.order .navigation:hover {
+    color: #2E0800; 
+    background-color: transparent; 
+}
+
+.order .navigation {
+    font-family: "Inter", sans-serif;
+    position: relative;
+    right: inherit;
+    margin: 1% 9%;
+    color: #722C1D;
+    font-size: 1.2vw;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.order .coffee {
+    font-family: "Inter", sans-serif;
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.order #coffee_choices {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+    background-color: #b58363;
+    padding: 2%;
+    width: 100%;
+}
+
+.order #coffee_choices td {
+    padding: 1%;
+}
+
+.order .coffeeTitle {
+    font-family: "Inter", sans-serif;
     text-align: left;
-    font-size: 20px;
+    font-size: 1.8vw;
     font-weight: bold;
-    padding: 10px;
+    color: #5a2c1f;
+    padding: 1%;
 }
 
-.coffeeImg {
-    height: 100px;
-    width: 150px;
-    display: block;
-    margin: auto;
+.order .coffeeImg {
+    width: 8vw;
+    height: 8vw;
+    border: 0.1vw solid #5a2c1f;
+    border-radius: 0.5vw;
 }
 
-.label {
+.order .label {
+    font-family: "Inter", sans-serif;
+    font-size: 0.9vw;
+    color: #2E0800;
+}
+
+.order form {
+    font-family: "Inter", sans-serif;
+    color: #2E0800;
+    font-size: 1.2vw;
+    background-color: #b58363;
     text-align: center;
-    font-size: 12px;
-    padding: 5px;
+    margin-top: 2%;
+    padding: 2%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* form */
-form {
-    text-align: center;
-    margin-top: 20px;
+.order input, 
+.order select {
+    padding: 1%;
+    margin: 1%;
+    font-size: 1.2vw;
 }
 
-input, select {
-    padding: 5px;
-    margin: 5px;
-}
-
-input[type="submit"] {
-    background-color: #b58363 ;
+.order input[type="submit"] {
+    background-color: #8d493a;
     border: none;
     color: white;
-    border-radius: 5px;
-    padding: 10px 20px;
+    border-radius: 0.5vw;
+    padding: 1.2% 2.5%;
     cursor: pointer;
 }
 
-input[type="submit"]:hover {
-    background-color: #8d493a ;
+.order input[type="submit"]:hover {
+    background-color: #2E0800;
 }
 
-.contacts {
+.order .contacts {
+    font-family: "Inter", sans-serif;
+    font-size: 1.2vw;
+    background-color: #b58363;
     text-align: center;
 }
 
-footer {
+.order footer {
+    font-family: "Inter", sans-serif;
+    width: 40%;
+    margin: 2% auto;
+    border-radius: 2vw;
+    font-size: 1.2vw;
+    background-color: #b58363;
     text-align: center;
+    padding: 1.5%;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.order a[href="#title"] {
+    font-family: "Inter", sans-serif;
+    font-size: 1vw;
+    display: inline-block;
+    padding: 1% 1.5%;
+    background-color: #8d493a;
+    color: #d0b8a8 ;
+    text-decoration: none;
+    border-radius: 0.5vw;
+    font-weight: bold;
+    margin-left: 2%;
+    position: absolute; 
+}
+
+.order a[href="#bottomPage"] {
+    font-family: "Inter", sans-serif;
+    font-size: 1vw;
+    display: inline-block;
+    padding: 1% 1.5%;
+    background-color: #8d493a;
+    color: #d0b8a8;
+    text-decoration: none;
+    border-radius: 0.5vw;
+    font-weight: bold;
+    position: absolute;
+    right: 2%;
+    bottom: 2%;
+}
+
+.order a[href="#bottomPage"]:hover,
+.order a[href="#title"]:hover {
+    background-color: #2E0800;
 }
